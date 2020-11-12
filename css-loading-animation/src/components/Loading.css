@@ -1,0 +1,70 @@
+.Container {
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.Container span {
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-size: 80px;
+    color: blanchedalmond;
+    display: inline-block;
+    transition: all .5s;
+    animation: animate 2s infinite;
+}
+.Container span:nth-child(1)
+{
+    animation-delay: .1s;
+}
+.Container span:nth-child(2)
+{
+    animation-delay: .2s;
+}
+.Container span:nth-child(3)
+{
+    animation-delay: .3s;
+}
+.Container span:nth-child(4)
+{
+    animation-delay: .4s;
+}
+.Container span:nth-child(5)
+{
+    animation-delay: .5s;
+}
+.Container span:nth-child(6)
+{
+    animation-delay: .6s;
+}
+.Container span:nth-child(7)
+{
+    animation-delay: .7s;
+}
+.Container span:nth-child(1)
+{
+    animation-delay: .1s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        color: rgba(0,0,139);
+        transform: translateY(0);
+        margin-left: 0;
+    }
+    25%
+    {
+        color: #FFF;
+        transform: translateY(-15px);
+        margin-left: 10px;
+    }
+    100%
+    {
+        color:  rgba(0,0,139);
+        transform: translateY(0);
+    }
+    
+}
