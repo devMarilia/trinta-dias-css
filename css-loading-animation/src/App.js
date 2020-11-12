@@ -1,10 +1,13 @@
-
+import React from 'react';
+import Loading from '../src/components/Loading'
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      TRINTA DIAS DE CSS
+      <Loading/>
     </div>
   );
 }
