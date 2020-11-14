@@ -1,9 +1,11 @@
+import React from 'react'
+import Skills from './components/Skills'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      teste
+      <Skills />
     </div>
   );
 }
