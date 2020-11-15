@@ -1,0 +1,91 @@
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px ;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container .box {
+    position: relative;
+    padding: 80px 40px 40px;
+    transition: 0.5s;
+    text-align: center;
+    background: #fff;
+}
+.container .box:hover {
+    background: #ff0057;
+}
+.container .box p {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+.container .box h4 {
+    margin: 20px 0 0;
+    padding: 0;
+     transition: 0.5s;
+     font-size: 18px;
+     color: #ff0057;
+     font-weight: 700;
+     line-height: 20px;
+     text-transform: uppercase;
+}
+.container .box h4 span {
+    font-weight: 600;
+    font-size:  14px;
+    color: #c5c5c5;
+    transition: 0.5s;
+}
+.container .box:hover p,
+.container .box:hover h4,
+.container .box:hover h4 span {
+    color: #fff;
+} 
+.container .box .imgBox {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container .box::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+    background: url(../imagens/quotes.png);
+    background-size: cover;
+    opacity: 0.05;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.container .box:hover::before{
+    transform: translateY(-60px);
+    opacity: 1;
+}
+.container .box::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    background: url(../imagens/quotes.png);
+    background-size: cover;
+    opacity: 0.05;
+    pointer-events: none;
+    transition: 0.5s;
+    transform: rotate(180deg)translateY(0px);
+}
+.container .box:hover::after{
+    transform: rotate(180deg) translateY(-60px);
+    opacity: 1;
+}
