@@ -3,6 +3,15 @@ import './Testemunhos.css'
 import Lia from '../imagens/perfil001.jpg'
 import Power from '../imagens/perfil003.png'
 
+function Banana() {
+    return (
+        <div>
+            <h4>Pablo</h4>
+            <h3>Um homem especial</h3>
+        </div>
+    )
+
+}
 
 function Testemunhos() {
     return (
@@ -24,7 +33,7 @@ function Testemunhos() {
                 </div>
                 <p>
                 Feminismo, essa é a essa causa que devemos lutar, pois queremos ter os mesmos direitos, ter as mesmas oportunidades independente de idade, origem, raça ou crença. Não é porque somos mulheres, mulheres sim, que não merecemos reconhecimento..</p>
-                <h4>Power Girils<br/><span>Feminismo</span></h4>
+                <h4>{Banana()}<br/><span>Feminismo</span></h4>
             </div>
         </div>
     )
