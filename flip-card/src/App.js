@@ -1,10 +1,11 @@
 import React from 'react'
+import FlipCard from './componets/FlipCard'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      teste
+      <FlipCard/>
     </div>
   );
 }
