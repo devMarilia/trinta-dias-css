@@ -8,6 +8,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+ 
 `;
 
 const Button = styled.button`
@@ -19,6 +20,7 @@ const Button = styled.button`
   color: #fff;
   font-size: 24px;
   cursor: pointer;
+  
 `;
 
 function App() {
@@ -31,7 +33,7 @@ function App() {
   return (
     <>
       <Container>
-        <Button onClick={openModal}>I'm a modal</Button>
+        <Button onClick={openModal}>Eu sou modal</Button>
         <Modal showModal={showModal} setShowModal={setShowModal} />
         <GlobalStyle />
       </Container>
