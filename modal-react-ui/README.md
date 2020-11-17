@@ -4,7 +4,7 @@
 
 
 
-Mais um projeto  passar o mouse sobre o elemento temos um efeito incrível e com o componente responsivo.
+Mais um projeto  clicar no Botão temos um efeito incrível e com o componente responsivo.
 Usei React Hooks e componentes estilizados para criar este modal.<br><br>
 
 <img src="https://media.giphy.com/media/Mdlscw2GpiR4gzeE5s/giphy.gif"/><br><br>
