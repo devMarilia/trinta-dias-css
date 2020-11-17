@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
-import Image from '../images/modal.jpg'
+import Image from '../images/modal.png'
 
 import { MdClose } from 'react-icons/md';
 
@@ -13,6 +13,9 @@ const Background = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+
+  
 `;
 
 const ModalWrapper = styled.div`
@@ -42,8 +45,15 @@ const ModalContent = styled.div`
   align-items: center;
   line-height: 1.8;
   color: #141414;
+  
+
+  h1 {
+    color: #946d46;
+    font-family: 'Libre Baskerville', serif;
+  }
   p {
     margin-bottom: 1rem;
+   
   }
   button {
     padding: 10px 24px;
@@ -51,6 +61,7 @@ const ModalContent = styled.div`
     color: #fff;
     border: none;
   }
+  
 `;
 
 const CloseModalButton = styled(MdClose)`
@@ -62,7 +73,10 @@ const CloseModalButton = styled(MdClose)`
   height: 32px;
   padding: 0;
   z-index: 10;
+
 `;
+
+
 
 export const Modal = ({ showModal, setShowModal }) => {
   const modalRef = useRef();
@@ -107,9 +121,9 @@ export const Modal = ({ showModal, setShowModal }) => {
             <ModalWrapper showModal={showModal}>
               <ModalImg src={Image} alt='camera' />
               <ModalContent>
-                <h1>Are you ready?</h1>
-                <p>Get exclusive access to our next launch.</p>
-                <button>Join Now</button>
+                <h1>Você está pronto?</h1>
+                <p>Tenha acesso exclusivo ao nosso próximo lançamento</p>
+                <button>Entrar</button>
               </ModalContent>
               <CloseModalButton
                 aria-label='Close modal'
