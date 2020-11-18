@@ -2,15 +2,15 @@
 ## Hove Image 3D<br><br>
 ### _Este projeto tem como objetivo criar habiliadades com componentização e CSS responsividade e 3D_<br><br>
 
-
+<img src="https://media.giphy.com/media/GtHj3jiWN0P0d5Zuej/giphy.gif">
 
 
 
 Este Projeto foi criado em:
 
 <ul>
-    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a></li>
     <li><a href="https://pt-br.reactjs.org/">React.js</a></li><br>
 </ul>
 
